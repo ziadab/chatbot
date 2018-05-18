@@ -1,3 +1,7 @@
+#By me Ziad Abouelfarah
+#fb : facebook.com/zain.abouelfarah
+#gmail : ziadabouelfarah2@gmail.com
+
 from fbchat import Client,log
 from fbchat.models import *
 import apiai,json,codecs
