@@ -4,7 +4,7 @@
 
 from fbchat import Client,log
 from fbchat.models import *
-import apiai,json,codecs
+import apiai,json,codecs, getpass
 
 
 class chatbot(Client):
@@ -38,7 +38,7 @@ class chatbot(Client):
 
 
 email = str(input("your facebook email : "))
-password = str(input("your facebook password : "))
+password = str(getpass.getpass("your facebook password : "))
 
 me = chatbot(email,password)
 me.listen()
